@@ -1,0 +1,1007 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <title>
+        Divya, You're Invited! 🎉
+    </title>
+
+    <link
+        rel="stylesheet"
+        href="style.css"
+    >
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Orbitron:wght@400;500;600;700&family=Poppins:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet"
+    >
+
+</head>
+
+
+<body>
+
+
+    <!-- =====================================================
+         INTRO SCREEN
+    ====================================================== -->
+
+    <section
+        id="introScreen"
+        class="intro-screen"
+    >
+
+        <div class="intro-glow"></div>
+
+        <div class="floating-emoji emoji-1">
+            🎈
+        </div>
+
+        <div class="floating-emoji emoji-2">
+            ✨
+        </div>
+
+        <div class="floating-emoji emoji-3">
+            🎉
+        </div>
+
+        <div class="floating-emoji emoji-4">
+            💜
+        </div>
+
+
+        <div class="intro-content">
+
+            <div class="party-emoji">
+                🎉
+            </div>
+
+
+            <p class="small-title">
+                ANIRUDDH HAS A SPECIAL INVITATION FOR
+            </p>
+
+
+            <h1>
+
+                DIVYA
+
+                <span>
+                    💜
+                </span>
+
+            </h1>
+
+
+            <p class="intro-text">
+                You are officially invited to Aniruddh's party.
+            </p>
+
+
+            <div class="invitation-card">
+
+                <div class="invitation-line"></div>
+
+
+                <p>
+                    Dear Divya,
+                </p>
+
+
+                <p>
+                    I've prepared something special.
+                    <br>
+                    You just need to show up. 😎
+                </p>
+
+
+                <strong>
+                    — Aniruddh
+                </strong>
+
+            </div>
+
+
+            <button
+                id="enterBtn"
+                class="neon-button"
+            >
+                ENTER ANIRUDDH'S PARTY 🚀
+            </button>
+
+
+            <p class="click-note">
+                🔊 Turn up the volume
+            </p>
+
+        </div>
+
+    </section>
+
+
+
+    <!-- =====================================================
+         MAIN PARTY
+    ====================================================== -->
+
+    <main
+        id="party"
+        class="party hidden"
+    >
+
+
+        <!-- =================================================
+             BACKGROUND
+        ================================================== -->
+
+        <div class="background">
+
+            <div
+                class="spotlight spotlight-1"
+            ></div>
+
+            <div
+                class="spotlight spotlight-2"
+            ></div>
+
+            <div
+                class="spotlight spotlight-3"
+            ></div>
+
+
+            <div class="floor"></div>
+
+
+            <div class="disco-ball">
+
+                <div class="ball"></div>
+
+            </div>
+
+        </div>
+
+
+        <!-- CONFETTI -->
+
+        <div
+            id="confettiContainer"
+        ></div>
+
+
+        <!-- FIREWORKS -->
+
+        <canvas
+            id="fireworks"
+        ></canvas>
+
+
+        <!-- =================================================
+             NAVBAR
+        ================================================== -->
+
+        <header class="navbar">
+
+            <div class="logo">
+                🎉 ANIRUDDH'S PARTY
+            </div>
+
+
+            <div class="nav-controls">
+
+                <button
+                    id="musicBtn"
+                >
+                    🔊 Music
+                </button>
+
+
+                <button
+                    id="lightsBtn"
+                >
+                    💡 Lights
+                </button>
+
+            </div>
+
+        </header>
+
+
+
+        <!-- =================================================
+             HERO
+        ================================================== -->
+
+        <section class="hero">
+
+
+            <p class="eyebrow">
+                ✨ WELCOME DIVYA ✨
+            </p>
+
+
+            <h2>
+
+                ANIRUDDH'S
+
+                <span>
+                    PARTY
+                </span>
+
+            </h2>
+
+
+            <p class="subtitle">
+
+                Aniruddh has been waiting for you.
+
+                <br>
+
+                The party officially starts now. 🎉
+
+            </p>
+
+
+
+            <!-- PERSONAL MESSAGE -->
+
+            <div class="personal-message">
+
+                <span class="personal-icon">
+                    💌
+                </span>
+
+
+                <p>
+
+                    Hey Divya,
+
+                    <br>
+
+                    you're officially invited to
+                    Aniruddh's party.
+
+                    <br>
+
+                    No excuses.
+                    You have to show up. 😎
+
+                </p>
+
+
+                <strong>
+                    — Aniruddh
+                </strong>
+
+            </div>
+
+
+
+            <!-- ACTION BUTTONS -->
+
+            <div class="party-actions">
+
+
+                <button
+                    id="danceBtn"
+                    class="action-button dance"
+                >
+                    💃 DANCE
+                </button>
+
+
+                <button
+                    id="surpriseBtn"
+                    class="action-button surprise"
+                >
+                    🎁 SURPRISE
+                </button>
+
+
+                <button
+                    id="gameBtn"
+                    class="action-button game"
+                >
+                    🎮 PLAY GAME
+                </button>
+
+            </div>
+
+
+
+            <!-- VIP CARD -->
+
+            <div class="divya-card">
+
+                <div
+                    class="divya-card-glow"
+                ></div>
+
+
+                <span class="card-emoji">
+                    👑
+                </span>
+
+
+                <h3>
+                    SPECIAL GUEST
+                </h3>
+
+
+                <p>
+                    Tonight's party is hosted by
+                    <strong>
+                        Aniruddh
+                    </strong>.
+                </p>
+
+
+                <p>
+                    And apparently...
+                </p>
+
+
+                <strong class="vip-text">
+                    Divya is the VIP. 💜
+                </strong>
+
+            </div>
+
+        </section>
+
+
+
+        <!-- =================================================
+             DJ
+        ================================================== -->
+
+        <div class="dj">
+
+            <div class="dj-head">
+                😎
+            </div>
+
+
+            <div class="dj-body">
+                🎧
+            </div>
+
+
+            <div class="dj-name">
+                DJ ANIRUDDH
+            </div>
+
+
+            <div class="dj-sound">
+                🔊 🔊 🔊
+            </div>
+
+        </div>
+
+
+
+        <!-- =================================================
+             PARTY CHAT
+        ================================================== -->
+
+        <section class="chat-box">
+
+
+            <div class="chat-header">
+                💬 PARTY CHAT
+            </div>
+
+
+            <div
+                id="chatMessages"
+                class="chat-messages"
+            >
+
+                <div class="message">
+
+                    <span>
+                        Aniruddh:
+                    </span>
+
+                    Divya, you finally made it! 😂
+
+                </div>
+
+
+                <div class="message">
+
+                    <span>
+                        Aniruddh:
+                    </span>
+
+                    I was wondering when you would arrive 👀
+
+                </div>
+
+
+                <div class="message">
+
+                    <span>
+                        DJ:
+                    </span>
+
+                    Everyone! Our VIP has arrived! 🎉
+
+                </div>
+
+
+                <div class="message">
+
+                    <span>
+                        Someone:
+                    </span>
+
+                    Okay Divya,
+                    no sitting in the corner today 😎
+
+                </div>
+
+            </div>
+
+
+            <div class="chat-input">
+
+                <input
+                    id="chatInput"
+                    type="text"
+                    placeholder="Say something to Aniruddh..."
+                    maxlength="100"
+                >
+
+
+                <button
+                    id="sendMessage"
+                >
+                    ➤
+                </button>
+
+            </div>
+
+        </section>
+
+
+
+        <!-- =================================================
+             PARTY STATS
+        ================================================== -->
+
+        <div class="stats">
+
+
+            <div>
+
+                <span id="peopleCount">
+                    1
+                </span>
+
+                <small>
+                    PARTY PEOPLE
+                </small>
+
+            </div>
+
+
+            <div>
+
+                <span id="danceCount">
+                    0
+                </span>
+
+                <small>
+                    DANCE MOVES
+                </small>
+
+            </div>
+
+
+            <div>
+
+                <span id="partyScore">
+                    0
+                </span>
+
+                <small>
+                    PARTY SCORE
+                </small>
+
+            </div>
+
+
+        </div>
+
+
+
+        <!-- =================================================
+             SURPRISE / AWARD MODAL
+        ================================================== -->
+
+        <div
+            id="surpriseModal"
+            class="modal hidden"
+        >
+
+
+            <div class="award-box">
+
+
+                <button
+                    id="closeSurprise"
+                    class="close"
+                    aria-label="Close surprise"
+                >
+                    ✕
+                </button>
+
+
+                <div class="award-stars">
+                    ✦ ✧ ✦
+                </div>
+
+
+                <p class="award-eyebrow">
+                    ANIRUDDH PRESENTS
+                </p>
+
+
+                <div class="award-icon">
+                    🏆
+                </div>
+
+
+                <p class="award-small">
+                    THE SPECIAL PARTY AWARD
+                </p>
+
+
+                <h3>
+                    BEST MASTER CHEF
+                </h3>
+
+
+                <h4>
+                    OF DRY FRUIT LADDU
+                </h4>
+
+
+                <div class="award-divider"></div>
+
+
+                <p class="award-recipient">
+                    Awarded to
+                </p>
+
+
+                <div class="award-name">
+                    DIVYA
+                </div>
+
+
+                <p class="award-message">
+
+                    For outstanding contribution to the
+                    noble art of making exceptionally good
+                    dry fruit laddu. ✨
+
+                </p>
+
+
+                <p class="award-signature">
+
+                    With appreciation,
+
+                    <br>
+
+                    <strong>
+                        — Aniruddh
+                    </strong>
+
+                </p>
+
+
+                <button
+                    id="claimPrize"
+                    class="gold-button"
+                >
+                    ✨ ACCEPT MY AWARD
+                </button>
+
+
+                <div
+                    id="prizeAccepted"
+                    class="prize-accepted hidden"
+                >
+
+                    🏆
+
+                    <span>
+                        Award officially accepted.
+                    </span>
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+
+        <!-- =================================================
+             DANCE FLOOR MODAL
+        ================================================== -->
+
+        <div
+            id="danceModal"
+            class="modal hidden"
+        >
+
+
+            <div class="dance-box">
+
+
+                <button
+                    id="closeDance"
+                    class="close"
+                    aria-label="Close dance floor"
+                >
+                    ✕
+                </button>
+
+
+
+                <!-- =========================================
+                     DANCE LOBBY
+                ========================================== -->
+
+                <div
+                    id="danceLobby"
+                    class="dance-screen"
+                >
+
+
+                    <p class="dance-eyebrow">
+                        ✦ THE DANCE FLOOR ✦
+                    </p>
+
+
+                    <h3>
+                        Aniruddh's Dance Evening
+                    </h3>
+
+
+                    <p class="dance-description">
+
+                        The room is already alive.
+                        Elegant music fills the floor,
+                        couples are moving gracefully,
+                        and everyone seems to be having
+                        a wonderful time.
+
+                    </p>
+
+
+
+                    <div
+                        class="dance-scene-preview"
+                    >
+
+
+                        <div
+                            class="dancer dancer-a"
+                        >
+                            🕺
+                        </div>
+
+
+                        <div
+                            class="dancer dancer-b"
+                        >
+                            💃
+                        </div>
+
+
+                        <div
+                            class="dancer dancer-c"
+                        >
+                            🕺
+                        </div>
+
+
+                        <div
+                            class="dancer dancer-d"
+                        >
+                            💃
+                        </div>
+
+
+                        <div class="dance-light">
+                            ✦
+                        </div>
+
+                    </div>
+
+
+                    <p class="dance-invite">
+                        Divya, would you like to join them?
+                    </p>
+
+
+                    <button
+                        id="joinDance"
+                        class="gold-button"
+                    >
+                        ✨ JOIN THE DANCE FLOOR
+                    </button>
+
+                </div>
+
+
+
+                <!-- =========================================
+                     ACTIVE DANCE
+                ========================================== -->
+
+                <div
+                    id="activeDance"
+                    class="dance-screen hidden"
+                >
+
+
+                    <p class="dance-eyebrow">
+                        ✦ DIVYA ON THE FLOOR ✦
+                    </p>
+
+
+                    <h3>
+                        The room belongs to you tonight
+                    </h3>
+
+
+                    <div
+                        class="active-dance-stage"
+                    >
+
+
+                        <div class="background-dancers">
+
+                            <span>
+                                🕺
+                            </span>
+
+                            <span>
+                                💃
+                            </span>
+
+                            <span>
+                                🕺
+                            </span>
+
+                        </div>
+
+
+                        <div
+                            id="divyaDancer"
+                            class="divya-dancer"
+                        >
+                            💃
+                        </div>
+
+
+                        <div class="dance-shadow"></div>
+
+
+                        <div class="stage-spark spark-1">
+                            ✦
+                        </div>
+
+
+                        <div class="stage-spark spark-2">
+                            ✧
+                        </div>
+
+
+                        <div class="stage-spark spark-3">
+                            ✦
+                        </div>
+
+                    </div>
+
+
+                    <!-- ROTATING PRAISE -->
+
+                    <div
+                        id="dancePraise"
+                        class="dance-praise"
+                    >
+                        Divya, you look absolutely radiant tonight.
+                    </div>
+
+
+                    <p
+                        id="dancePraiseDetail"
+                        class="dance-praise-detail"
+                    >
+                        There is something effortlessly graceful
+                        about the way you move.
+                    </p>
+
+
+                    <div class="praise-dots">
+
+                        <span class="praise-dot active"></span>
+                        <span class="praise-dot"></span>
+                        <span class="praise-dot"></span>
+                        <span class="praise-dot"></span>
+                        <span class="praise-dot"></span>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+
+        <!-- =================================================
+             GAME MODAL
+        ================================================== -->
+
+        <div
+            id="gameModal"
+            class="modal hidden"
+        >
+
+
+            <div class="game-box">
+
+
+                <button
+                    id="closeGame"
+                    class="close"
+                    aria-label="Close game"
+                >
+                    ✕
+                </button>
+
+
+                <p class="game-eyebrow">
+                    🎮 ANIRUDDH'S MINI GAME
+                </p>
+
+
+                <h3>
+                    CATCH THE PARTY!
+                </h3>
+
+
+                <div class="game-instructions">
+
+                    <p>
+
+                        🎯
+                        <strong>
+                            Your goal:
+                        </strong>
+
+                        Catch the glowing circle
+                        as many times as possible.
+
+                    </p>
+
+
+                    <p>
+
+                        ⏱️
+                        You have
+                        <strong>
+                            20 seconds
+                        </strong>.
+
+                    </p>
+
+
+                    <p>
+
+                        ⚡
+                        The circle will move faster
+                        and get smaller as your
+                        score increases.
+
+                    </p>
+
+                </div>
+
+
+                <div class="game-info">
+
+
+                    <div>
+
+                        <span id="gameScore">
+                            0
+                        </span>
+
+                        <small>
+                            SCORE
+                        </small>
+
+                    </div>
+
+
+                    <div>
+
+                        <span id="gameTime">
+                            20
+                        </span>
+
+                        <small>
+                            SECONDS
+                        </small>
+
+                    </div>
+
+
+                </div>
+
+
+                <div id="gameArea">
+
+                    <button
+                        id="target"
+                    ></button>
+
+                </div>
+
+
+                <p
+                    id="gameMessage"
+                    class="game-message"
+                >
+                    Catch it! 🔥
+                </p>
+
+
+                <button
+                    id="retryGame"
+                    class="retry-button hidden"
+                >
+                    🔄 TRY AGAIN
+                </button>
+
+
+            </div>
+
+        </div>
+
+
+
+        <!-- =================================================
+             FOOTER
+        ================================================== -->
+
+        <footer>
+            Made by Aniruddh for Divya ❤️
+        </footer>
+
+
+    </main>
+
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
